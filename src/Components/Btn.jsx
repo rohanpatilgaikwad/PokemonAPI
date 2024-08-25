@@ -34,9 +34,11 @@ function Btn() {
         smooth={true}
         offset={50}
         duration={250}
-        disabled={DisbleNext}
+        
       >
-        <button onClick={() => Next()}>Next</button>
+        <button 
+        disabled ={DisbleNext}
+        onClick={() => Next()}>Next</button>
       </Link>
 
       {/* {DisplayPoke.map((poke,i)=>  <Btn key={poke.id} num={i+1} click={changePage}/>)} */}

@@ -14,6 +14,7 @@ body {
   color: #ec2d2d;
   cursor: pointer;
 }
+
 .header {
   text-align: center;
   /* margin-top: 1rem; */
@@ -195,6 +196,8 @@ span {
   justify-content: center;
 }
 footer {
+
+  width: 100%;
   text-align: center;
   padding: 0.6rem;
   background-color: #24d26fba;
@@ -221,3 +224,4 @@ a {
 button:disabled {
   background-color: #24d26f85;
 }
+
